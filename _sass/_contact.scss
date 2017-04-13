@@ -1,0 +1,85 @@
+.contact-content {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 5;
+  padding-top: 50px;
+  width: 50%;
+}
+
+.logo {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-form {
+  text-align: center;
+  padding-top: 25px;
+  margin: 0 auto;
+  width: 100%;
+  form {
+    display: block;
+    width: 100%;
+    font-family: 'Space Mono', monospace;
+  }
+  input {
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 15px 15px;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    border: none;
+    font-size: 18px;
+  }
+  input[type="submit"] {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    font-weight: 800;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 2px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+}
+
+.return-btn {
+  position: relative;
+  text-align: left;
+}
+
+.return {
+  font-family: 'Space Mono', monospace;
+  padding-left: 35px;
+  color: white;
+  &:before {
+    content: "<";
+    font-size: 35px;
+    font-family: 'Space Mono', monospace;
+    position: absolute;
+    top: -14px;
+    left: 0;
+  }
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+  &:visited {
+    color: white;
+  }
+}

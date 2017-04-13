@@ -1,0 +1,20 @@
+---
+layout: post
+title: NOCC
+date:  2016-09-09 12:00:00
+categories: portfolio
+excerpt_separator: <!--END-->
+---
+Javscript, XML
+<!--END-->
+
+![nocc]({{ site.url }}/assets/img/nocc.jpg)
+
+<p class="portfolio-btn"><a  href="http://runwalk.ovarian.org/york/Home/Index/" target="_blank">LINK</a></p>
+
+Dynamic module created that pulls data from xml file to display number of steps. Odometer JS and CSS library used to create animation.
+
+<div class="return-btn">
+    <a class="return" href="/portfolio.html">Return</a>
+</div>
+ 

@@ -1,0 +1,20 @@
+---
+layout: post
+title: Pattinan Monogramming
+date:  2017-04-13 12:00:00
+categories: portfolio
+excerpt_separator: <!--END-->
+---
+Wordpress, Ecommerce
+<!--END-->
+
+![Pattinan]({{ site.url }}/assets/img/pattinan.jpg)
+
+<p class="portfolio-btn"><a  href="http://pattinan.com" target="_blank">LINK</a></p>
+
+Website built for my grandmother to create an online presence for her monogramming business. Website was built with Wordpress and Woocommerce. A custom theme was developed with the Genesis framework.
+
+<div class="return-btn">
+    <a class="return" href="/portfolio.html">Return</a>
+</div>
+ 

@@ -1,0 +1,40 @@
+// Footer ----------------------------------
+
+.site-footer {
+  border: none;
+}
+
+html {
+  background: black;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  background: black;
+}
+
+.post {
+  color: #828282;
+  margin-top: 50px;
+  .post-title {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .post-meta {
+    text-align: center;
+  }
+}
+
+.post-content {
+  a {
+    color: white;
+    &:hover {
+      color: red;
+      text-decoration: none;
+    }
+  }
+  .return-btn {
+    margin-top: 25px;
+  }
+}

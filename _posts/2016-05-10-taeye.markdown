@@ -1,0 +1,20 @@
+---
+layout: post
+title: Ta Eye Care
+date:  2017-04-13 12:00:00
+categories: portfolio
+excerpt_separator: <!--END-->
+---
+GRAV CMS
+<!--END-->
+
+![taeye]({{ site.url }}/assets/img/taeye.jpg)
+
+<p class="portfolio-btn"><a  href="http://taeyecare.com" target="_blank">LINK</a></p>
+
+Website built for my cousins optometry practice in Dallas, TX. Website built with the GRAV CMS. 
+
+<div class="return-btn">
+    <a class="return" href="/portfolio.html">Return</a>
+</div>
+ 
