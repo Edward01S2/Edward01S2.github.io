@@ -29,7 +29,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center
+  text-align: center;
 }
 
 .logo {
@@ -70,10 +70,45 @@
     font-weight: 500;
     letter-spacing: 2px;
     transition: all 0.2s ease-in-out;
+    display: inline;
     &:hover {
       color: black;
       background: white;
       text-decoration: none;
+    }
+  }
+}
+
+.btn-links {
+  li {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    transform: none;
+    margin-top: 50px;
+  }
+  .btn-links {
+    margin: 0;
+    li {
+      display: block;
+      padding-bottom: 25px;
+      a {
+        border: none;
+      }
     }
   }
 }

@@ -48,3 +48,18 @@
 .portfolio-return {
     margin-top: 25px;
 }
+
+@media screen and (max-width: 425px) {
+    .portfolio-content{
+        margin-top: 25px;
+        .logo {
+            width: 75%;
+        }
+    }
+    .posts li a {
+        font-size: 20px;
+    }
+    .posts li p {
+        font-size: 14px;
+    }
+}

@@ -83,3 +83,9 @@
     color: white;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .contact-content {
+    width: 90%;
+  }
+}
